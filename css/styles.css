@@ -39,14 +39,14 @@ body{
 }
 
     /* ------header-------- */
-.header{
+.header-container{
     display:flex;
     align-items: center;
     justify-content: space-between;
     border-image-source: linear-gradient(0deg, #000000, #000000),
     linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .header-line{
 border-bottom: 1px solid #ECECEC;
@@ -111,7 +111,7 @@ letter-spacing: 0.02em;
 color:var(--primary-text-color);
 margin-left: 50px;
 }
-.nav-contacts {
+.nav-contacts{
     display: flex;
 }
 
@@ -142,7 +142,7 @@ border-radius: 4px;
 padding: 10px 32px;
 background-color: #2196F3;
 color: var(--second-title-color);
-margin-top: 90px;
+margin-top: 30px;
 }
 
 .btn{
@@ -184,16 +184,17 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color:var(--primary-title-color) ;          
+color:var(--primary-title-color); 
+margin-bottom: 10px;         
 }
 
 .hero-description{
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--primary-text-color)
-width: 270px;;
+color: var(--primary-text-color);
+width: 270px;
 }
 
 .whatwedotitle{
@@ -263,7 +264,6 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color:var(--primary-title-color)
 padding-top: 30px;
-/* padding-bottom: 30px; */
 text-align: center;}
 
 .team-occupation{
@@ -342,7 +342,6 @@ border: transparent;
 
 .content-item{
    flex-basis: calc(100% / 3 - 30px);
-    /* flex-basis: calc(100% - 3 * 30px)/9; */
 }
 .content-item{ 
     margin-right: 30px;
@@ -407,9 +406,6 @@ color: var(--primary-text-color);
     color: rgba(255, 255, 255, 0.6);    
     }
     
-    .footer-address{
-        padding-top: 20px;
-    }
 
     .footer-address .footer-contacts + .footer-contacts {
         margin-top: 9px;
